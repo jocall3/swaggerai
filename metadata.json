@@ -1,0 +1,5 @@
+{
+  "name": "OpenAPI Dashboard",
+  "description": "A web application that displays an interactive OpenAPI (Swagger) dashboard for browsing and testing APIs using swagger-ui-react.",
+  "requestFramePermissions": []
+}

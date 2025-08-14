@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OpenAPI Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/swagger-ui-dist@5.17.14/swagger-ui.css" />
+    <style>
+      /* Minor theme overrides to better match a dark theme */
+      body {
+        background-color: #111827; /* gray-900 */
+      }
+      .swagger-ui .topbar {
+        background-color: #1f2937; /* gray-800 */
+        border-bottom: 1px solid #374151; /* gray-700 */
+      }
+      .swagger-ui .topbar .download-url-wrapper .download-url-button {
+        background: #0d9488; /* teal-600 */
+      }
+      .swagger-ui .topbar .download-url-wrapper input[type=text] {
+        border: 2px solid #4b5563; /* gray-600 */
+        background: #1f2937; /* gray-800 */
+        color: #f3f4f6; /* gray-100 */
+      }
+      .swagger-ui .info .title small.version-stamp {
+        background-color: #374151; /* gray-700 */
+      }
+      .swagger-ui .scheme-container {
+        background: #1f2937; /* gray-800 */
+        border-bottom: 1px solid #374151; /* gray-700 */
+      }
+      .swagger-ui, .swagger-ui .info .base-url, .swagger-ui .info .description, .swagger-ui .opblock-tag, .swagger-ui .opblock .opblock-summary-description {
+        color: #d1d5db; /* gray-300 */
+      }
+      .swagger-ui .opblock-summary-control:focus {
+        outline: none;
+      }
+       .swagger-ui .opblock-tag {
+        border-bottom-color: #4b5563; /* gray-600 */
+       }
+      .swagger-ui .opblock.opblock-post {
+        border-color: #2dd4bf; /* teal-400 */
+        background: rgba(45, 212, 191, 0.05);
+      }
+      .swagger-ui .opblock.opblock-post .opblock-summary {
+        border-color: #2dd4bf; /* teal-400 */
+      }
+      .swagger-ui .opblock.opblock-get {
+        border-color: #60a5fa; /* blue-400 */
+        background: rgba(96, 165, 250, 0.05);
+      }
+      .swagger-ui .opblock.opblock-get .opblock-summary {
+        border-color: #60a5fa; /* blue-400 */
+      }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.1/",
+    "react": "https://esm.sh/react@^19.1.1",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.1/",
+    "swagger-ui-react": "https://esm.sh/swagger-ui-react@^5.27.1"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>
