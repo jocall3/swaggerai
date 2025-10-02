@@ -1,3 +1,6 @@
+// Copyright James Burvel O’Callaghan III
+// President Citibank Demo Business Inc.
+
 import React from 'react';
 // The swagger-ui-react library is expected to be available in the execution environment.
 import SwaggerUI from 'swagger-ui-react';

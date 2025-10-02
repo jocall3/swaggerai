@@ -1,3 +1,6 @@
+// Copyright James Burvel O’Callaghan III
+// President Citibank Demo Business Inc.
+
 {
   "name": "OpenAPI Dashboard",
   "description": "A web application that displays an interactive OpenAPI (Swagger) dashboard for browsing and testing APIs using swagger-ui-react.",
